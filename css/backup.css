@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.nombre {
+    font-family: 'Sacramento', cursive;
+    font-size: 150px;
+    color: #FF87B7;
+    background-color: #4f4f4f;
+    border-radius: 1.5em;
+    padding: 15px;
+    margin: 15px 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    background-color: #4f4f4f;
+}
+
+.first-link:hover{
+    transform: scale(1.5) translateY(5px);
+    color: #FF87B7;
+}
+
+.first-link {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 00.75em;
+    color: #FF87B7;
+    margin: 10px;
+    transition: all 0.75s linear;
+}
+
+.second-link:hover{
+    transform: scale(1.5) translateY(5px);
+    color: #FF87B7;
+}
+
+.second-link {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 00.75em;
+    color: #FF87B7;
+    margin: 10px;
+    transition: all 0.75s linear;
+}
+
+.third-link:hover{
+    transform: scale(1.5) translateY(5px);
+    color: #FF87B7;
+}
+
+.third-link {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 00.75em;
+    color: #FF87B7;
+    margin: 10px;
+    transition: all 0.75s linear;
+}
+
+/* Inicio */
+
+
+
+.subTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 45px;
+    word-spacing: 4px;
+    color: #4f4f4f;
+    background-color: #FF87B7;
+    border: 3px solid #000000;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 300px;
+    padding: 10px;
+}
+
+
+.preguntas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #4f4f4f;
+    background-color: #FF87B7;
+    text-align: left;
+    border: 3px solid #000000;
+    border-radius: 1em;
+    margin: 10px 0px 10px 25px; 
+    padding: 5px 10px 5px 10px;    
+}
+
+.respuestas{
+    font-family: 'Indie Flower', cursive;
+    font-size: 45px;
+    line-height: 45px;
+    border-radius: 1em;
+    color:#FF87B7 ;
+    background-color: #4f4f4f;
+    margin: 10px 15px 10px 600px;
+    text-align: center;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Indie Flower', cursive;
+    font-size: 45px;
+    line-height: 45px;
+    color:#FF87B7 ;
+    background-color: #4f4f4f;
+    border-radius: 1.5em;
+    margin: 10px 30px; 
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.maps{
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    height: 500px;
+    width: 700px;
+    padding: 25px;
+}
+
+.imagenArticulo{
+    padding: 30px;
+    height: 250px;
+    background-color: white;
+    float: left;
+    margin-left: 25px;
+    border: 1px solid black;
+
+}
+
+.articulo{
+    font-family: serif;
+    font-size: 25px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 220px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid black;
+}
+
+.descripcion{
+    font-family: serif;
+    font-size: 20px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 115px;
+    padding-left: 220px;
+    padding-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid black;
+}
+
+/* Footer */
+
+.precio{
+    font-family: serif;
+    font-size: 25px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 220px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid black;
+}
+
+.subTitleFinal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-top: 1px solid black;
+}
+
+.final{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}

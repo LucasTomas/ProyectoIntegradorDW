@@ -1,0 +1,91 @@
+@mixin links-navbar($font) {
+    font-family: 'Sacramento', cursive;
+    font-size: $font;
+    text-decoration: none;
+    border-radius: 00.75em;
+    color: $color-rosa;
+    transition: all 0.75s linear;
+}
+
+@mixin name($font, $margin) {
+    font-family: 'Sacramento', cursive;
+    font-size: $font;
+    color: $color-rosa;
+    background-color: $color-gris;
+    border-radius: 1.5em;
+    padding: 12.5px;
+    margin: 12.5px $margin;
+}
+
+@mixin mapa($width, $height) {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    height: $height; 
+    width: $width; 
+    padding: 25px;
+}
+
+@mixin titleFinal($font) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font;
+    color: $color-rosa;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-top: 1px solid black;
+}
+
+@mixin final($font) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font;
+    padding-left: 15px;
+}
+
+@mixin subtitle($margin, $font) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font;
+    line-height: 45px;
+    word-spacing: 4px;
+    padding: 10px;
+    color: $color-gris;
+    background-color: $color-rosa;
+    border-radius: 1em;
+    border: 2px solid #000000;
+    margin: 10px $margin;
+}
+
+@mixin paragraph($font, $margin, $height) {
+    font-family: 'Indie Flower', cursive;
+    font-size: $font;
+    line-height: $height;
+    color:$color-rosa;
+    background-color: $color-gris;
+    border-radius: 1.5em;
+    margin: 10px $margin; 
+    padding: 20px;
+}
+
+@mixin preguntas($font) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font;
+    color: $color-gris;
+    background-color: $color-rosa;
+    text-align: left;
+    border: 2px solid #000000;
+    border-radius: 1em;
+    margin: 10px 0px 10px 25px; 
+    padding: 5px 10px 5px 10px;
+}
+
+@mixin respuestas($font, $height, $margin) {
+    font-family: 'Indie Flower', cursive;
+    font-size: $font;
+    line-height: $height;
+    border-radius: 1em;
+    color: $color-rosa;
+    background-color: $color-gris;
+    margin: 10px 15px 10px $margin;
+    text-align: center;
+}
+

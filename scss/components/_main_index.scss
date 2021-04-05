@@ -1,0 +1,85 @@
+
+/* Media queris */
+
+/*
+.nombre {
+    @media only screen and (max-width: 850px) {
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+    }
+
+    @media only screen and (min-width: 1601px){
+    }
+}
+*/
+
+.subTitle {
+    @media only screen and (max-width: 850px) {
+        @include subtitle(100px, 40px);
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include subtitle(200px, 50px);
+    }
+
+    @media only screen and (min-width: 1601px){
+        @include subtitle(300px, 60px);
+    }
+}
+
+.paragraph {
+    @media only screen and (max-width: 850px) {
+        @include paragraph(25px, 10px, 25px);
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include paragraph(35px, 20px, 35px);
+    }
+
+    @media only screen and (min-width: 1601px){
+        @include paragraph(45px, 30px, 45px);
+    }
+}
+
+.preguntas {
+    @media only screen and (max-width: 850px) {
+        @include preguntas(25px);
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include preguntas(35px);
+    }
+
+    @media only screen and (min-width: 1601px){
+        @include preguntas(45px);
+    }
+}
+
+.respuestas {
+    @media only screen and (max-width: 850px) {
+        @include respuestas(25px, 25px, 200px);
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include respuestas(35px, 35px, 400px);
+    }
+
+    @media only screen and (min-width: 1601px){
+        @include respuestas(45px, 45px, 600px);
+    }
+}
+
+.maps {
+    @media only screen and (max-width: 850px) {
+        @include mapa(300px, 214px);
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include mapa(500px, 357px);
+    }
+
+    @media only screen and (min-width: 1601px){
+        @include mapa(700px, 500px);
+    }
+}

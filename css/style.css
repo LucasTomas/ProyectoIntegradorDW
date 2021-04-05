@@ -1,0 +1,495 @@
+@media only screen and (max-width: 850px) {
+  .nombre {
+    font-family: "Sacramento", cursive;
+    font-size: 50px;
+    color: #FF87B7;
+    background-color: #4f4f4f;
+    border-radius: 1.5em;
+    padding: 12.5px;
+    margin: 12.5px 65px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .nombre {
+    font-family: "Sacramento", cursive;
+    font-size: 100px;
+    color: #FF87B7;
+    background-color: #4f4f4f;
+    border-radius: 1.5em;
+    padding: 12.5px;
+    margin: 12.5px 225px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .nombre {
+    font-family: "Sacramento", cursive;
+    font-size: 150px;
+    color: #FF87B7;
+    background-color: #4f4f4f;
+    border-radius: 1.5em;
+    padding: 12.5px;
+    margin: 12.5px 500px;
+  }
+}
+
+.menu {
+  background-color: #4f4f4f;
+  padding: 10px 0px;
+}
+
+@media only screen and (max-width: 850px) {
+  .first-link {
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 0.75em;
+    color: #FF87B7;
+    transition: all 0.75s linear;
+  }
+  .first-link:hover {
+    transform: scale(1.5) translateY(2px);
+    color: #FF87B7;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .first-link {
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 0.75em;
+    color: #FF87B7;
+    transition: all 0.75s linear;
+  }
+  .first-link:hover {
+    transform: scale(1.5) translateY(3.5px);
+    color: #FF87B7;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .first-link {
+    font-family: "Sacramento", cursive;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 0.75em;
+    color: #FF87B7;
+    transition: all 0.75s linear;
+  }
+  .first-link:hover {
+    transform: scale(1.5) translateY(5px);
+    color: #FF87B7;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .second-link {
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 0.75em;
+    color: #FF87B7;
+    transition: all 0.75s linear;
+  }
+  .second-link:hover {
+    transform: scale(1.5) translateY(2px);
+    color: #FF87B7;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .second-link {
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 0.75em;
+    color: #FF87B7;
+    transition: all 0.75s linear;
+  }
+  .second-link:hover {
+    transform: scale(1.5) translateY(3.5px);
+    color: #FF87B7;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .second-link {
+    font-family: "Sacramento", cursive;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 0.75em;
+    color: #FF87B7;
+    transition: all 0.75s linear;
+  }
+  .second-link:hover {
+    transform: scale(1.5) translateY(5px);
+    color: #FF87B7;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .third-link {
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 0.75em;
+    color: #FF87B7;
+    transition: all 0.75s linear;
+  }
+  .third-link:hover {
+    transform: scale(1.5) translateY(2px);
+    color: #FF87B7;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .third-link {
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 0.75em;
+    color: #FF87B7;
+    transition: all 0.75s linear;
+  }
+  .third-link:hover {
+    transform: scale(1.5) translateY(3.5px);
+    color: #FF87B7;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .third-link {
+    font-family: "Sacramento", cursive;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 0.75em;
+    color: #FF87B7;
+    transition: all 0.75s linear;
+  }
+  .third-link:hover {
+    transform: scale(1.5) translateY(5px);
+    color: #FF87B7;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .subTitleFinal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FF87B7;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-top: 1px solid black;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .subTitleFinal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #FF87B7;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-top: 1px solid black;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .subTitleFinal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #FF87B7;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-top: 1px solid black;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .final {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .final {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .final {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 15px;
+  }
+}
+
+/* Media queris */
+/*
+.nombre {
+    @media only screen and (max-width: 850px) {
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+    }
+
+    @media only screen and (min-width: 1601px){
+    }
+}
+*/
+@media only screen and (max-width: 850px) {
+  .subTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    word-spacing: 4px;
+    padding: 10px;
+    color: #4f4f4f;
+    background-color: #FF87B7;
+    border-radius: 1em;
+    border: 2px solid #000000;
+    margin: 10px 100px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .subTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 45px;
+    word-spacing: 4px;
+    padding: 10px;
+    color: #4f4f4f;
+    background-color: #FF87B7;
+    border-radius: 1em;
+    border: 2px solid #000000;
+    margin: 10px 200px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .subTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 45px;
+    word-spacing: 4px;
+    padding: 10px;
+    color: #4f4f4f;
+    background-color: #FF87B7;
+    border-radius: 1em;
+    border: 2px solid #000000;
+    margin: 10px 300px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .paragraph {
+    font-family: "Indie Flower", cursive;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FF87B7;
+    background-color: #4f4f4f;
+    border-radius: 1.5em;
+    margin: 10px 10px;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .paragraph {
+    font-family: "Indie Flower", cursive;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FF87B7;
+    background-color: #4f4f4f;
+    border-radius: 1.5em;
+    margin: 10px 20px;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .paragraph {
+    font-family: "Indie Flower", cursive;
+    font-size: 45px;
+    line-height: 45px;
+    color: #FF87B7;
+    background-color: #4f4f4f;
+    border-radius: 1.5em;
+    margin: 10px 30px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .preguntas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #4f4f4f;
+    background-color: #FF87B7;
+    text-align: left;
+    border: 2px solid #000000;
+    border-radius: 1em;
+    margin: 10px 0px 10px 25px;
+    padding: 5px 10px 5px 10px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .preguntas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #4f4f4f;
+    background-color: #FF87B7;
+    text-align: left;
+    border: 2px solid #000000;
+    border-radius: 1em;
+    margin: 10px 0px 10px 25px;
+    padding: 5px 10px 5px 10px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .preguntas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #4f4f4f;
+    background-color: #FF87B7;
+    text-align: left;
+    border: 2px solid #000000;
+    border-radius: 1em;
+    margin: 10px 0px 10px 25px;
+    padding: 5px 10px 5px 10px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .respuestas {
+    font-family: "Indie Flower", cursive;
+    font-size: 25px;
+    line-height: 25px;
+    border-radius: 1em;
+    color: #FF87B7;
+    background-color: #4f4f4f;
+    margin: 10px 15px 10px 200px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .respuestas {
+    font-family: "Indie Flower", cursive;
+    font-size: 35px;
+    line-height: 35px;
+    border-radius: 1em;
+    color: #FF87B7;
+    background-color: #4f4f4f;
+    margin: 10px 15px 10px 400px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .respuestas {
+    font-family: "Indie Flower", cursive;
+    font-size: 45px;
+    line-height: 45px;
+    border-radius: 1em;
+    color: #FF87B7;
+    background-color: #4f4f4f;
+    margin: 10px 15px 10px 600px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .maps {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    height: 214px;
+    width: 300px;
+    padding: 25px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .maps {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    height: 357px;
+    width: 500px;
+    padding: 25px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .maps {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    height: 500px;
+    width: 700px;
+    padding: 25px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.imagenArticulo {
+  padding: 30px;
+  height: 250px;
+  background-color: white;
+  float: left;
+  margin-left: 25px;
+  border: 1px solid black;
+}
+
+.articulo {
+  font-family: serif;
+  font-size: 25px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 220px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 1px solid black;
+}
+
+.descripcion {
+  font-family: serif;
+  font-size: 20px;
+  background-color: white;
+  padding: 10px 50px 115px 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 1px solid black;
+}
+
+/* Footer */
+.precio {
+  font-family: serif;
+  font-size: 25px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 220px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 1px solid black;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-family: fantasy;
+  font-size: 50px;
+  word-spacing: 2px;
+  color: #ff4b93;
+  width: 500px;
+  padding-top: 25%;
+}
+
+.presentation {
+  margin: 50px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

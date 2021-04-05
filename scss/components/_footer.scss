@@ -1,0 +1,27 @@
+.subTitleFinal {
+    @media only screen and (max-width: 850px) {
+        @include titleFinal(20px);
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include titleFinal(25px);
+    }
+
+    @media only screen and (min-width: 1601px){
+        @include titleFinal(30px);
+    }
+}
+
+.final {
+    @media only screen and (max-width: 850px) {
+        @include final(15px);
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include final(20px);
+    }
+
+    @media only screen and (min-width: 1601px){
+        @include final(25px);
+    }
+}
