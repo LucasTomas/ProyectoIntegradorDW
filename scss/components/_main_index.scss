@@ -1,21 +1,41 @@
-
-/* Media queris */
-
-/*
-.nombre {
+.eslogan {
     @media only screen and (max-width: 850px) {
+        @include eslogan(25px);
     }
-
+    
     @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include eslogan(55px);
     }
-
+    
     @media only screen and (min-width: 1601px){
+        @include eslogan(75px);
     }
 }
-*/
+
+.presentacion {
+    @media only screen and (max-width: 850px) {
+        @include presentation(55px, 55px);
+    }
+    
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include presentation(65px, 65px);
+    }
+    
+    @media only screen and (min-width: 1601px){
+        @include presentation(75px, 75px);
+    }
+}
+
+.ImagenC {
+    width: 35%;
+}
 
 .subTitle {
-    @media only screen and (max-width: 850px) {
+    @media only screen and (max-width: 550px) {
+        @include subtitle(40px, 28px);
+    }
+
+    @media only screen and (min-width: 551px) and (max-width: 850px) {
         @include subtitle(100px, 40px);
     }
 

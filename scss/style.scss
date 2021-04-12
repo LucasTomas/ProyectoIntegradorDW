@@ -1,8 +1,9 @@
 @import 'variables/variables';
 @import 'extend/mixin';
 @import 'components/header';
-@import 'components/navbar';
 @import 'components/footer';
+@import 'components/main_contactos';
+@import 'components/main_catalogo';
 @import 'components/main_index';
 
 * {
@@ -11,71 +12,41 @@
     box-sizing: border-box;
 }
 
-.imagenArticulo{
-    padding: 30px;
-    height: 250px;
-    background-color: white;
-    float: left;
-    margin-left: 25px;
-    border: 1px solid black;
 
-}
 
-.articulo{
-    font-family: serif;
-    font-size: 25px;
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 220px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border: 1px solid black;
-}
-
-.descripcion{
-    font-family: serif;
-    font-size: 20px;
-    background-color: white;
-    padding: 10px 50px 115px 200px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border: 1px solid black;
-}
-
-/* Footer */
-
-.precio{
-    font-family: serif;
-    font-size: 25px;
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 220px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border: 1px solid black;
-}
-
-.redes {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
-}
-
-.text {
-    font-family: fantasy;
-    font-size: 50px;
-    word-spacing: 2px;
-    color: #ff4b93;
-    width: 500px;
-    padding-top: 25%;
-}
-
-.presentation {
-    margin: 50px 0px;
-}
 
 .hola {
     font-size: 24px;
 }
+
+// .imagenArticulo{
+//     padding: 30px;
+//     height: 250px;
+//     background-color: white;
+//     float: left;
+//     margin-left: 25px;
+//     border: 1px solid black;
+// }
+
+// .redes {
+//     display: flex;
+//     justify-content: center;
+//     width: 35%;
+// }
+
+
+
+/* Media queris */
+
+/*
+.nombre {
+    @media only screen and (max-width: 850px) {
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+    }
+
+    @media only screen and (min-width: 1601px){
+    }
+}
+*/

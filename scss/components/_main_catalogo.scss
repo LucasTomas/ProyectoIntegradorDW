@@ -1,0 +1,41 @@
+.Articulo{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid $color-gris-medio;
+    color: $color-rosa-claro;
+    background-color: $color-gris-claro;
+    padding: 5px;
+    margin: 0px 20px;
+}
+
+.Descripcion {
+    display: flex;
+    border: 1px solid $color-gris-medio;
+    background-color: $color-gris-claro;
+    margin: 0px 20px;
+}
+
+.Imagen-Articulo {
+    // border: 1px solid $color-gris-medio;
+    background-color: $color-gris-claro;
+    padding: 5px;
+}
+
+.Descripcion-Articulo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 1px solid $color-gris-medio;
+    color: $color-rosa-claro;
+    background-color: $color-gris-claro;
+    padding: 5px;
+}
+
+.Precio{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid $color-gris-medio;
+    color: $color-rosa-claro;
+    background-color: $color-gris-claro;
+    padding: 5px;
+    margin: 0px 20px;
+}

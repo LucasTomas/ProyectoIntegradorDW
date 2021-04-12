@@ -27,32 +27,45 @@
             <a href="contactos.html" class="third-link">Contactos</a>
         </nav>
     </header>
-
-    <main>
-        <h2 class="subTitle">Nos puede contactar por gmail:</h2>
-        <h4>Email:</h4>
-        <h5>Ingrese su mail:</h5>
-        <h5>Asunto:</h5>
-        <h5>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-            perspiciatis omnis expedita odio voluptatibus iste dolore perferendis,
-            et repudiandae blanditiis dolorem, quia similique! Veritatis modi quis, deserunt repudiandae numquam amet.
-        </h5>
-        <button>Enviar</button>
-        <br>
-        <br>
-        <h3 class="subTitle">
-            o por...
-        </h3>
-        <div class="redes">
-            <a href="https://www.instagram.com" class="imagenRed"><img src="Imagenes/Instagram2.png"
-                    alt="Perfil de Instagram"></a>
-            <a href="https:/www.facebook.com" class="imagenRed"><img src="imagenes/FaceBook.png"
-                    alt="Perfil de FaceBook"></a>
+    
+        <h2 class="subTitle-Contactos">Nos puede contactar por gmail:</h2>
+    
+    <section class="section-1">
+        <div class="contenedor">
+            <form action="" method="POST" id="my-form">
+      
+                <div class="form-group">
+                  <label for="firstName"> Nombre </label>
+                  <input type="text" id="firstName" name="firstName">
+                </div>
+          
+                <div class="form-group">
+                    <label for="latsName"> Apellido </label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+          
+                <div class="form-group">
+                    <label for="email"> Email </label>
+                    <input type="email" id="email" name="email">
+                </div>
+          
+                <div class="form-group">
+                    <label for="massage"> Mansaje </label>
+                    <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                </div>
+                
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="boton"> Enviar </button>    
+                </div>
+    
+            </form>
         </div>
-    </main>
+    </section>
 
-    <hr><!-- Se que no la tendiramos que usar, pero cuando lo sepamos hacer en css prometo cambiarlo ;) -->
+    <section>
+        <h3 class="subTitle-Contactos"> o por... </h3>
+        <a href="https://www.instagram.com" class="d-flex justify-content-center"> <img src="Imagenes/Instagram2.png" alt="Perfil de Instagram" class="w-25"> </a>
+    </section>
 
     <footer>
         <h1 class="subTitleFinal">Packaging de alta gamma para pasteleria</h1>

@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasTomas/ProyectoIntegradorDW.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LucasTomas/ProyectoIntegradorDW/issues"
+  },
+  "homepage": "https://github.com/LucasTomas/ProyectoIntegradorDW#readme",
   "description": ""
 }

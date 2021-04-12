@@ -20,7 +20,7 @@
 @mixin mapa($width, $height) {
     display: block;
     margin: auto;
-    border: 2px solid black;
+    border: 1.5px solid $color-gris-medio;
     height: $height; 
     width: $width; 
     padding: 25px;
@@ -49,9 +49,9 @@
     word-spacing: 4px;
     padding: 10px;
     color: $color-gris;
-    background-color: $color-rosa;
+    background-color: $color-rosa-claro;
     border-radius: 1em;
-    border: 2px solid #000000;
+    border: 2px solid black;
     margin: 10px $margin;
 }
 
@@ -60,7 +60,7 @@
     font-size: $font;
     line-height: $height;
     color:$color-rosa;
-    background-color: $color-gris;
+    background-color: $color-gris-claro;
     border-radius: 1.5em;
     margin: 10px $margin; 
     padding: 20px;
@@ -70,9 +70,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: $font;
     color: $color-gris;
-    background-color: $color-rosa;
+    background-color: $color-rosa-claro;
     text-align: left;
-    border: 2px solid #000000;
+    // border: 2px solid #000000;
     border-radius: 1em;
     margin: 10px 0px 10px 25px; 
     padding: 5px 10px 5px 10px;
@@ -84,8 +84,48 @@
     line-height: $height;
     border-radius: 1em;
     color: $color-rosa;
-    background-color: $color-gris;
+    background-color: $color-gris-claro;
     margin: 10px 15px 10px $margin;
     text-align: center;
 }
 
+@mixin presentation($margin1, $margin2) {
+    margin-top: $margin1;
+    margin-bottom: $margin2;
+}
+
+@mixin eslogan($font) {
+    font-family: fantasy;
+    font-size: $font;
+    word-spacing: 2px;
+    color: #ff4b93;
+    width: 35%;
+}
+
+@mixin subTitle-Contactos($margin, $font) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font;
+    line-height: 45px;
+    word-spacing: 4px;
+    padding: 10px;
+    text-align: center;
+    color: $color-gris;
+    background-color: $color-rosa-claro;
+    border-radius: 1em;
+    border: 2px solid black;
+    margin: 35px $margin;
+}
+
+@mixin boton($width, $font) {
+    width: $width;
+    height: 6vh;
+    border: 1.5px solid grey;
+    outline: none;
+    font-size: $font;
+    border-radius: 8px;
+    color: $color-gris;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color; 
+}
