@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width: 850px) {
   .nombre {
     font-family: "Sacramento", cursive;
@@ -171,10 +177,9 @@
   .subTitleFinal {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    text-align: center;
     color: #FF87B7;
-    margin-top: 10px;
-    padding-left: 15px;
-    padding-top: 5px;
+    padding: 25px 0px;
     border-top: 1px solid black;
   }
 }
@@ -182,10 +187,9 @@
   .subTitleFinal {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    text-align: center;
     color: #FF87B7;
-    margin-top: 10px;
-    padding-left: 15px;
-    padding-top: 5px;
+    padding: 25px 0px;
     border-top: 1px solid black;
   }
 }
@@ -193,10 +197,9 @@
   .subTitleFinal {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    text-align: center;
     color: #FF87B7;
-    margin-top: 10px;
-    padding-left: 15px;
-    padding-top: 5px;
+    padding: 25px 0px;
     border-top: 1px solid black;
   }
 }
@@ -205,22 +208,33 @@
   .final {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    padding-left: 15px;
+    text-align: center;
+    color: #FF87B7;
+    padding: 25px 0px;
   }
 }
 @media only screen and (min-width: 851px) and (max-width: 1600px) {
   .final {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    padding-left: 15px;
+    text-align: center;
+    color: #FF87B7;
+    padding: 25px 0px;
   }
 }
 @media only screen and (min-width: 1601px) {
   .final {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    padding-left: 15px;
+    text-align: center;
+    color: #FF87B7;
+    padding: 25px 0px;
   }
+}
+
+.pie-pagina {
+  background-color: #4f4f4f;
+  width: 100%;
 }
 
 @media only screen and (max-width: 550px) {
@@ -371,14 +385,38 @@ textarea {
   background-color: #FEC5E5;
 }
 
-.Articulo {
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid #6b6b6b;
-  color: #faaac9;
-  background-color: #f2f2f2;
-  padding: 5px;
-  margin: 0px 20px;
+@media only screen and (max-width: 850px) {
+  .Articulo {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #6b6b6b;
+    color: #faaac9;
+    background-color: #f2f2f2;
+    padding: 3px;
+    margin: 0px 20px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .Articulo {
+    font-size: 25;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #6b6b6b;
+    color: #faaac9;
+    background-color: #f2f2f2;
+    padding: 4px;
+    margin: 0px 20px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .Articulo {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #6b6b6b;
+    color: #faaac9;
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin: 0px 20px;
+  }
 }
 
 .Descripcion {
@@ -393,23 +431,69 @@ textarea {
   padding: 5px;
 }
 
-.Descripcion-Articulo {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  border-left: 1px solid #6b6b6b;
-  color: #faaac9;
-  background-color: #f2f2f2;
-  padding: 5px;
+@media only screen and (max-width: 850px) {
+  .Descripcion-Articulo {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 1px solid #6b6b6b;
+    color: #faaac9;
+    background-color: #f2f2f2;
+    padding: 3px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .Descripcion-Articulo {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 1px solid #6b6b6b;
+    color: #faaac9;
+    background-color: #f2f2f2;
+    padding: 4px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .Descripcion-Articulo {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 1px solid #6b6b6b;
+    color: #faaac9;
+    background-color: #f2f2f2;
+    padding: 5px;
+  }
 }
 
-.Precio {
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid #6b6b6b;
-  color: #faaac9;
-  background-color: #f2f2f2;
-  padding: 5px;
-  margin: 0px 20px;
+@media only screen and (max-width: 850px) {
+  .Precio {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #6b6b6b;
+    color: #faaac9;
+    background-color: #f2f2f2;
+    padding: 3px;
+    margin: 0px 20px 10px 20px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1600px) {
+  .Precio {
+    font-size: 25;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #6b6b6b;
+    color: #faaac9;
+    background-color: #f2f2f2;
+    padding: 4px;
+    margin: 0px 20px 10px 20px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .Precio {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #6b6b6b;
+    color: #faaac9;
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin: 0px 20px 10px 20px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -528,7 +612,7 @@ textarea {
     color: #FF87B7;
     background-color: #f2f2f2;
     border-radius: 1.5em;
-    margin: 10px 10px;
+    margin: 20px 10px;
     padding: 20px;
   }
 }
@@ -540,7 +624,7 @@ textarea {
     color: #FF87B7;
     background-color: #f2f2f2;
     border-radius: 1.5em;
-    margin: 10px 20px;
+    margin: 30px 20px;
     padding: 20px;
   }
 }
@@ -552,86 +636,22 @@ textarea {
     color: #FF87B7;
     background-color: #f2f2f2;
     border-radius: 1.5em;
-    margin: 10px 30px;
+    margin: 40px 30px;
     padding: 20px;
   }
 }
 
 @media only screen and (max-width: 850px) {
-  .preguntas {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    color: #4f4f4f;
-    background-color: #faaac9;
-    text-align: left;
-    border-radius: 1em;
-    margin: 10px 0px 10px 25px;
-    padding: 5px 10px 5px 10px;
+  .maps {
+    display: block;
+    margin: auto;
+    border: 1.5px solid #6b6b6b;
+    height: 214px;
+    width: 225px;
+    padding: 25px;
   }
 }
-@media only screen and (min-width: 851px) and (max-width: 1600px) {
-  .preguntas {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    color: #4f4f4f;
-    background-color: #faaac9;
-    text-align: left;
-    border-radius: 1em;
-    margin: 10px 0px 10px 25px;
-    padding: 5px 10px 5px 10px;
-  }
-}
-@media only screen and (min-width: 1601px) {
-  .preguntas {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
-    color: #4f4f4f;
-    background-color: #faaac9;
-    text-align: left;
-    border-radius: 1em;
-    margin: 10px 0px 10px 25px;
-    padding: 5px 10px 5px 10px;
-  }
-}
-
-@media only screen and (max-width: 850px) {
-  .respuestas {
-    font-family: "Indie Flower", cursive;
-    font-size: 25px;
-    line-height: 25px;
-    border-radius: 1em;
-    color: #FF87B7;
-    background-color: #f2f2f2;
-    margin: 10px 15px 10px 200px;
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 851px) and (max-width: 1600px) {
-  .respuestas {
-    font-family: "Indie Flower", cursive;
-    font-size: 35px;
-    line-height: 35px;
-    border-radius: 1em;
-    color: #FF87B7;
-    background-color: #f2f2f2;
-    margin: 10px 15px 10px 400px;
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 1601px) {
-  .respuestas {
-    font-family: "Indie Flower", cursive;
-    font-size: 45px;
-    line-height: 45px;
-    border-radius: 1em;
-    color: #FF87B7;
-    background-color: #f2f2f2;
-    margin: 10px 15px 10px 600px;
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 850px) {
+@media only screen and (min-width: 551px) and (max-width: 850px) {
   .maps {
     display: block;
     margin: auto;
@@ -662,10 +682,18 @@ textarea {
   }
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.accordion-margin {
+  margin: 40px 30px;
+}
+
+.accordion-settings:hover {
+  background-color: #faaac9;
+}
+
+.cuerpo {
+  font-size: 25px;
+  background-color: #f2f2f2;
+  color: #FF87B7;
 }
 
 .hola {

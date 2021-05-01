@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 @import 'variables/variables';
 @import 'extend/mixin';
 @import 'components/header';
@@ -6,34 +12,9 @@
 @import 'components/main_catalogo';
 @import 'components/main_index';
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
-
-
 .hola {
     font-size: 24px;
 }
-
-// .imagenArticulo{
-//     padding: 30px;
-//     height: 250px;
-//     background-color: white;
-//     float: left;
-//     margin-left: 25px;
-//     border: 1px solid black;
-// }
-
-// .redes {
-//     display: flex;
-//     justify-content: center;
-//     width: 35%;
-// }
-
 
 
 /* Media queris */

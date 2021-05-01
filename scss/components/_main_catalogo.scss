@@ -1,11 +1,15 @@
-.Articulo{
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid $color-gris-medio;
-    color: $color-rosa-claro;
-    background-color: $color-gris-claro;
-    padding: 5px;
-    margin: 0px 20px;
+.Articulo {
+    @media only screen and (max-width: 850px) {
+        @include Articulo(20px, 3px);
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include Articulo(25, 4px);
+    }
+
+    @media only screen and (min-width: 1601px){
+        @include Articulo(35px, 5px);
+    }
 }
 
 .Descripcion {
@@ -21,21 +25,30 @@
     padding: 5px;
 }
 
-.Descripcion-Articulo{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-left: 1px solid $color-gris-medio;
-    color: $color-rosa-claro;
-    background-color: $color-gris-claro;
-    padding: 5px;
+.Descripcion-Articulo {
+    @media only screen and (max-width: 850px) {
+        @include Descripcion-Articulo(15px, 3px);
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include Descripcion-Articulo(20px, 4px);
+    }
+
+    @media only screen and (min-width: 1601px){
+        @include Descripcion-Articulo(30px, 5px);
+    }
 }
 
-.Precio{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid $color-gris-medio;
-    color: $color-rosa-claro;
-    background-color: $color-gris-claro;
-    padding: 5px;
-    margin: 0px 20px;
+.Precio {
+    @media only screen and (max-width: 850px) {
+        @include Precio(20px, 3px);
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1600px) {
+        @include Precio(25, 4px);
+    }
+
+    @media only screen and (min-width: 1601px){
+        @include Precio(35px, 5px);
+    }
 }

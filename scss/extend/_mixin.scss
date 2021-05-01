@@ -29,17 +29,18 @@
 @mixin titleFinal($font) {
     font-family: Arial, Helvetica, sans-serif;
     font-size: $font;
+    text-align: center;
     color: $color-rosa;
-    margin-top: 10px;
-    padding-left: 15px;
-    padding-top: 5px;
+    padding: 25px 0px;
     border-top: 1px solid black;
 }
 
 @mixin final($font) {
     font-family: Arial, Helvetica, sans-serif;
     font-size: $font;
-    padding-left: 15px;
+    text-align: center;
+    color: $color-rosa;
+    padding: 25px 0px;
 }
 
 @mixin subtitle($margin, $font) {
@@ -55,38 +56,15 @@
     margin: 10px $margin;
 }
 
-@mixin paragraph($font, $margin, $height) {
+@mixin paragraph($font, $margin-h, $margin-w, $height) {
     font-family: 'Indie Flower', cursive;
     font-size: $font;
     line-height: $height;
     color:$color-rosa;
     background-color: $color-gris-claro;
     border-radius: 1.5em;
-    margin: 10px $margin; 
+    margin: $margin-h $margin-w; 
     padding: 20px;
-}
-
-@mixin preguntas($font) {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: $font;
-    color: $color-gris;
-    background-color: $color-rosa-claro;
-    text-align: left;
-    // border: 2px solid #000000;
-    border-radius: 1em;
-    margin: 10px 0px 10px 25px; 
-    padding: 5px 10px 5px 10px;
-}
-
-@mixin respuestas($font, $height, $margin) {
-    font-family: 'Indie Flower', cursive;
-    font-size: $font;
-    line-height: $height;
-    border-radius: 1em;
-    color: $color-rosa;
-    background-color: $color-gris-claro;
-    margin: 10px 15px 10px $margin;
-    text-align: center;
 }
 
 @mixin presentation($margin1, $margin2) {
@@ -129,3 +107,33 @@
     margin-top: 10px;
     transition: 0.3s ease background-color; 
 }
+
+@mixin Articulo($font, $padd){
+    font-size: $font;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid $color-gris-medio;
+    color: $color-rosa-claro;
+    background-color: $color-gris-claro;
+    padding: $padd;
+    margin: 0px 20px;
+}
+
+@mixin Descripcion-Articulo($font, $padd){
+    font-size: $font;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 1px solid $color-gris-medio;
+    color: $color-rosa-claro;
+    background-color: $color-gris-claro;
+    padding: $padd;
+}
+
+@mixin Precio($font, $padd){
+    font-size: $font;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid $color-gris-medio;
+    color: $color-rosa-claro;
+    background-color: $color-gris-claro;
+    padding: $padd;
+    margin: 0px 20px 10px 20px;
+}
+

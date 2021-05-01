@@ -50,48 +50,24 @@
 
 .paragraph {
     @media only screen and (max-width: 850px) {
-        @include paragraph(25px, 10px, 25px);
+        @include paragraph(25px, 20px, 10px, 25px);
     }
 
     @media only screen and (min-width: 851px) and (max-width: 1600px) {
-        @include paragraph(35px, 20px, 35px);
+        @include paragraph(35px, 30px, 20px, 35px);
     }
 
     @media only screen and (min-width: 1601px){
-        @include paragraph(45px, 30px, 45px);
-    }
-}
-
-.preguntas {
-    @media only screen and (max-width: 850px) {
-        @include preguntas(25px);
-    }
-
-    @media only screen and (min-width: 851px) and (max-width: 1600px) {
-        @include preguntas(35px);
-    }
-
-    @media only screen and (min-width: 1601px){
-        @include preguntas(45px);
-    }
-}
-
-.respuestas {
-    @media only screen and (max-width: 850px) {
-        @include respuestas(25px, 25px, 200px);
-    }
-
-    @media only screen and (min-width: 851px) and (max-width: 1600px) {
-        @include respuestas(35px, 35px, 400px);
-    }
-
-    @media only screen and (min-width: 1601px){
-        @include respuestas(45px, 45px, 600px);
+        @include paragraph(45px, 40px, 30px, 45px);
     }
 }
 
 .maps {
     @media only screen and (max-width: 850px) {
+        @include mapa(225px, 214px);
+    }
+
+    @media only screen and (min-width: 551px) and (max-width: 850px) {
         @include mapa(300px, 214px);
     }
 
@@ -102,4 +78,20 @@
     @media only screen and (min-width: 1601px){
         @include mapa(700px, 500px);
     }
+}
+
+.accordion-margin{
+    margin: 40px 30px;
+}
+
+.accordion-settings {
+    &:hover{
+        background-color: $color-rosa-claro;  
+    }
+}
+
+.cuerpo {
+    font-size: 25px;
+    background-color: $color-gris-claro;
+    color: $color-rosa;
 }
